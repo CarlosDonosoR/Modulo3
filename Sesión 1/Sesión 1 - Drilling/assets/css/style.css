@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://picsum.photos/id/642/2000/1333");
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.navbar{
+    background-color: lightblue;
+    height: 60px;
+}
+
+.navbar__header{
+    padding: 18px;
+}
+
+.header__a{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: large;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.header__a--bold{
+    font-weight: 700;
+}
+
+.title{
+    background-color: darkcyan;
+}
+
+.card__text{
+    color: white;
+}
+
+.card__text--big{
+    font-size: large;
+}
+
+.card__text--small{
+    font-size: small;
+}
