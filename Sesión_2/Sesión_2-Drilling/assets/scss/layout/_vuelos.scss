@@ -1,0 +1,43 @@
+.vuelos {
+
+    background-color: $color2-t;
+    height: 500px;
+
+    &__p {
+        height: 30px;
+        color: $color5;
+        padding: 35px;
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        margin-left: 110px;
+        text-align: center;
+    }
+
+    &__item--1 {
+        grid-area: 1 / 1 / 3 / 2;
+    }
+
+    &__item--2 {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    &__item--3 {
+        grid-area: 1 / 3 / 3 / 4;
+    }
+
+    &__item--4 {
+        grid-area: 1 / 4 / 3 / 5;
+    }
+
+    p {
+        color: $color5;
+        text-align: center;
+    }
+}
+

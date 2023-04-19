@@ -1,0 +1,92 @@
+.navbar {
+
+    &__li--logo {
+        font-family: $logo;
+        font-size: $logo_large;
+        font-weight: $bold;
+    }
+
+    &__li {
+        font-family: $text;
+        font-size: $letra_normal;
+    }
+}
+
+.vuelos {
+
+    &__p {
+        font-size: $letra_normal;
+        font-family: $text;
+        font-weight: $bold;
+    }
+
+    &__item {
+
+        p {
+            font-size: $letra_small;
+            font-family: $text;
+        }
+    }
+
+    &__btn {
+
+        span {
+            font-size: $letra_small;
+            font-family: $text;
+        }
+    }
+
+}
+
+.paquetes {
+
+    &__p {
+        font-size: $letra_normal;
+        font-family: $text;
+        font-weight: $bold;
+    }
+
+    &--h1{
+        font-family: $text;
+        font-size: $letra_normal;
+    }
+
+    &--body{
+        font-family: $text;
+        font-size: $letra_small;
+    }
+
+    &--price{
+        font-family: $text;
+        font-size: $letra_normal;
+        font-weight: $bold;
+    }
+}
+
+.form{
+
+    &--p{
+        font-size: $letra_normal;
+        font-family: $text;
+        font-weight: $bold;
+    }
+
+    input{
+        font-size: $letra_normal;
+        font-family: $text;
+    }
+
+    &--btn{
+        font-family: $text;
+        font-weight: $bold;
+        font-size: $letra_normal;
+    }
+}
+
+.footer{
+
+    &__li{
+        font-family: $text;
+        font-size: $letra_small;
+    }
+}

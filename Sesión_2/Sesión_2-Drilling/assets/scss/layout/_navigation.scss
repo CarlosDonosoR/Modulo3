@@ -1,0 +1,23 @@
+.navbar{
+    background-color: $color3;
+    height: 60px;
+
+    ul{
+        padding: 20px;
+    }
+
+    &__li{
+        display: inline-block;
+        margin-left: 20px;
+
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: $color1;
+
+            &:hover{
+                color: $color5;
+            }
+        }
+    }
+}
