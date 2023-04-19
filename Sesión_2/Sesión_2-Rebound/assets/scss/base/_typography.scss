@@ -1,0 +1,19 @@
+.carousel,
+.ofertas {
+
+    &__p {
+        font-size: $xxlarge;
+        font-family: $verdana;
+        font-weight: $weight-b;
+        padding: 20px;
+    }
+}
+
+.footer {
+
+    &__li--size {
+        font-size: $small;
+        font-family: $verdana;
+    }
+
+}

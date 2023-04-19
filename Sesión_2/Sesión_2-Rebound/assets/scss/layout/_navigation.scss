@@ -1,0 +1,30 @@
+.navbar {
+    background-color: $color1e;
+    height: 50px;
+
+    &__li {
+        list-style: none;
+        font-family: $verdana;
+        display: inline-block;
+        padding: 10px;
+        font-size: $large;
+        
+
+        a{
+            text-decoration: none;
+        color: black;
+        }
+    }
+
+    &__li--bold{
+        font-weight: $weight-b;
+    }
+
+    &__li--xlarge{
+        font-size: $xlarge;
+    }
+
+    &__i{
+        margin-left: 1000px;
+    }
+}

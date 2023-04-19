@@ -1,0 +1,25 @@
+.ofertas {
+
+    &__p{
+        margin-left: 20px;
+    }
+
+    &__div{
+        margin-left: 170px;
+        margin-right: 70px;
+    }
+
+    &__div--second{
+        margin-bottom: 30px;
+    }
+
+    &__li {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    li{
+        list-style: none;
+    }
+}

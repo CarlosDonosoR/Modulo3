@@ -1,0 +1,16 @@
+.carousel__li, .ofertas__li{
+
+    button{
+        background-color: $color1b;
+        font-family: $verdana;
+        border: 0;
+        border-radius: 5%;
+        font-weight: $weight-b;
+        width: 80px;
+        height: 30px;
+
+        &:hover{
+            background-color: $color2b;
+        }
+    }
+}

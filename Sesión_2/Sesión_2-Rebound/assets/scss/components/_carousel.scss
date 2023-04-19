@@ -1,0 +1,27 @@
+.carousel {
+    margin-top: 30px;
+
+    &__p{
+        margin-left: 20px;
+    }
+
+    &__div{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    &__li {
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+
+        i {
+            padding: 10px;
+        }
+
+        li {
+            list-style: none;
+        }
+    }
+
+}
