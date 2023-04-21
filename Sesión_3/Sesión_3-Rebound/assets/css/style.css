@@ -1,0 +1,55 @@
+.contenedor{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.contenedor__div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor__div--red{
+    background-color: red;
+    right: 400px;
+    top: 0;
+    z-index: 2;
+}
+
+.contenedor__div--yellow{
+    background-color: yellow;
+    top: 150px;
+    left: 250px;
+    z-index: 1;
+}
+
+.contenedor__div--green{
+    background-color: green;
+    right: 250px;
+    top: 150px;
+    z-index: 3;
+}
+
+.contenedor__div--blue{
+    background-color: blue;
+    bottom: 0;
+    right: 400px;
+    z-index: 4;
+}
+
+.contenedor__div--orange{
+    background-color: orange;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.div--small{
+    background-color: yellow;
+    width: 25%;
+    height: 25%;
+}
