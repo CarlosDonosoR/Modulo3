@@ -1,0 +1,126 @@
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    max-height: 150vh;
+}
+
+.header{
+    text-align: center;
+}
+
+.header__p span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header hr{ 
+    display: inline-block;
+    width: 40%;
+    margin: 0rem 0.3125rem 0rem 0.3125rem;
+}
+
+.header__p--bold{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.header span{
+    font-size: 0.8rem;
+}
+
+.aside{
+    float: left;
+    clear:left;
+}
+
+.aside__p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    width: 50%;
+    margin-bottom: 0.3125rem;
+    margin-right: 0;
+}
+
+.aside__p--bold{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    position: relative;
+    right: 14.5rem;
+}
+
+.aside__img{
+    float: left;
+    margin: 0.9375rem;
+    width: 21.875rem;
+    height: 15.625rem;
+}
+
+.aside__p--pages{
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+}
+
+.aside__p--pages:hover{
+    color: white;
+}
+
+.section{
+    float:right;
+    clear:right;
+    margin-top: -33.125rem;
+    width: 47%;
+}
+
+.section--title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.section__div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section__p--title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.section__p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.section__p--pages{
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+}
+
+.section__p--pages:hover{
+    color: white;
+}
+
+.footer{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-left: 25rem;
+}
+
+.footer__img{
+    width: 70%;
+    height: 70%;
+    opacity: 0.5;
+}
+
