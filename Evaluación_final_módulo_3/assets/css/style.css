@@ -1,0 +1,261 @@
+/*
+SCSS RGB
+$rich-black: rgba(13, 27, 42, 1);
+$ucla-blue: rgba(34, 116, 165, 1);
+$verdigris: rgba(23, 190, 187, 1);
+$platinum: rgba(234, 230, 229, 1);
+$carrot-orange: rgba(247, 152, 36, 1);
+*/
+
+/*reset de tamaños*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  rgba(23, 190, 187, 0.3);
+}
+
+/*CSS para el navbar*/
+.navbar {
+    width: 100%;
+    background-color: rgb(13, 27, 42);
+    height: 1.875rem;
+    position: fixed;
+    top: 0;
+    color: rgb(234, 230, 229);
+}
+
+.navbar__icons--log,
+.navbar__icons--svg {
+    margin: 0.625rem;
+}
+
+.navbar__icons--svg:hover {
+    color: rgb(247, 152, 36);
+}
+
+.navbar__list {
+    display: none;
+    justify-content: flex-end;
+
+    width: auto;
+}
+
+.navbar__ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: rgb(34, 116, 165, 0.2);
+    z-index: 2;
+    box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar__li {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    color: rgb(13, 27, 42);
+}
+
+.navbar__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/*Estilos para el título*/
+.title {
+    display: flex;
+    margin-top: 3.125rem;
+    justify-content: center;
+    color: rgba(13, 27, 42, 1);
+}
+
+/*Estilos para chat*/
+.section {
+    display: flex;
+    margin: 0.625rem;
+    justify-content: center;
+}
+
+.section--div{
+    display: none;
+}
+
+.section__aside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__div {
+    display: flex;
+    height: 3.125rem;
+    background-color: rgba(247, 152, 36, 1);
+}
+
+.section__div:hover{
+    background-color: rgba(234, 230, 229, 1);
+}
+
+.section__chat {
+    width: 100%;
+    display: none;
+    height:12.5rem;
+    background-color: rgba(23, 190, 187, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.section__foto,
+.section__nombre {
+    display: flex;
+    align-items: center;
+    margin: 0.1875rem;
+}
+
+.section__foto img,
+.section__chat img {
+    border-radius: 50%;
+    border: 2px solid rgba(13, 27, 42, 1);
+}
+
+.section__foto img:hover,
+.section__chat img:hover  {
+    transform: scale(1.2);
+}
+
+.section__chat div {
+    margin: 0.3125rem;
+}
+
+.section__chat--right img {
+    float: right;
+    margin: 0.3125rem;
+}
+
+.section__chat--right p {
+    clear: right;
+}
+
+.section__chat--right span, .section__chat--left span{
+    color: rgba(247, 152, 36, 0.8);
+    font-size: 0.625rem;
+}
+
+#nombre1, #nombre3, #nombre4{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+
+    .navbar__li{
+        font-size: 0.9375rem;
+    }
+
+    .navbar{
+        height: 3.125rem;
+    }
+
+    .title__p{
+        font-size: 1.25rem;
+        margin: 0.9375rem;
+    }
+
+    .section__aside{
+        width: 15.625rem;
+        height: 31.25rem;
+        
+        }
+    
+    .section__div{
+        height: 6.25rem;
+        padding: 0.625rem;
+        border-radius: 2px;
+        font-size: 0.9375rem;
+    }
+
+    .section{
+        flex-direction: row;
+    }
+
+    .section--div{
+        display: flex;
+        width: 31.25rem;
+        justify-content: center;
+        align-items: center;
+        color: rgba(13, 27, 42, 0.5);
+        background-color: rgba(23, 190, 187, 0.4);
+    }
+
+    .section__chat--right, .section__chat--left{
+        width: 100%;
+        font-size: 0.9375rem;
+    }
+
+    .section__chat--right p{
+        text-align: right;
+    }
+
+    .section__foto img, .section__chat--left img, .section__chat--right img{
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .navbar__li{
+        font-size: 1.25rem;
+    }
+
+    .title__p{
+        font-size: 1.875rem;
+        margin: 1.25rem;
+    }
+
+    .section__aside{
+        width: 31.25rem;
+        height:56.25rem;
+        }
+    
+    .section__div{
+        height: 9.375rem;
+        padding: 1.25rem;
+        border-radius: 2px;
+        font-size: 1.25rem;
+    }
+
+    .section{
+        flex-direction: row;
+    }
+
+    .section--div{
+        display: flex;
+        width: 62.5rem;
+        justify-content: center;
+        align-items: center;
+        color: rgba(13, 27, 42, 0.5);
+        background-color: rgba(23, 190, 187, 0.4);
+        height: 46.875rem;
+    }
+
+    .section__chat--right, .section__chat--left{
+        width: 100%;
+        font-size: 1.5625rem;
+    }
+
+    .section__chat--right p{
+        text-align: right;
+    }
+
+    .section__foto img, .section__chat--left img, .section__chat--right img{
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+}
